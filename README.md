@@ -100,3 +100,56 @@
     2. The teacher also rewards a child with few extra chocolates for his/her best conduct during the camp. <br>
     3. If the number of extra chocolates is less than 1, an error message "Extra chocolates is less than 1", should be displayed.<br>
     4. If the given child Id is invalid, an error message "Child id is invalid" should be displayed. Otherwise, the extra chocolates provided for the child must be added to         his/her existing number of chocolates and display the list containing the total number of chocolates received by each child.<br>
+
+20. Represent a small bilingual (English-Swedish) glossary given below as a Python dictionary <br>
+    {"merry":"god", "christmas":"jul", "and":"och", "happy":"gott", "new":"nytt", "year":"ar"}  <br>
+    and use it to translate your Christmas wishes from English into Swedish. That is, write a python function translate() that accepts the bilingual dictionary and a list of         English words (your Christmas wish) and returns a list of equivalent Swedish words. <br>
+    
+21. Write a python program to display all the common characters between two strings. Return -1 if there are no matching characters.<br>
+    **Note**: Ignore blank spaces if there are any. Perform case sensitive string comparison wherever necessary.<br>
+
+22. Write a python function, encrypt_sentence() which accepts a message and encrypts it based on rules given below and returns the encrypted message. <br>
+    Words at odd position -> Reverse It <br>
+    Words at even position -> Rearrange the characters so that all consonants appear before the vowels and their order should not change <br>
+    **Note:**
+    1. Assume that the sentence would begin with a word and there will be only a single space between the words. <br>
+    2. Perform case sensitive string operations wherever necessary. <br>
+
+23. Write a python function, find_correct() which accepts a dictionary and returns a list as per the rules mentioned below.The input dictionary will contain correct spelling of     a word as key and the spelling provided by a contestant as the value.<br>
+
+    The function should identify the degree of correctness as mentioned below:<br>
+    CORRECT, if it is an exact match<br>
+    ALMOST CORRECT, if no more than 2 letters are wrong<br>
+    WRONG, if more than 2 letters are wrong or if length (correct spelling versus spelling given by contestant) mismatches.<br>
+
+    and return a list containing the number of CORRECT answers, number of ALMOST CORRECT answers and number of WRONG answers. Assume that the words contain only uppercase           letters and the maximum word length is 10.<br>
+
+24. Care hospital wants to know the medical speciality visited by the maximum number of patients. Assume that the patient id of the patient along with the medical speciality         visited by the patient is stored in a list. The details of the medical specialities are stored in a dictionary as follows:<br>
+    {  <br>
+    "P":"Pediatrics",<br>
+    "O":"Orthopedics",<br>
+    "E":"ENT<br>
+    } <br>
+    Write a function to find the medical speciality visited by the maximum number of patients and return the name of the speciality.<br>
+    **Note**: <br>
+    Assume that there is always only one medical speciality which is visited by maximum number of patients.<br>
+    Perform case sensitive string comparison wherever necessary.<br>
+
+25. Write python function, sms_encoding() which accepts a sentence and converts it into an abbreviated sentence to be sent as SMS and returns the abbreviated sentence. <br>
+    Rules are as follows: <br>
+    1. Spaces are to be retained as is <br>
+    2. Each word should be encoded separately <br>
+    If a word has only vowels then retain the word as is <br>
+    If a word has a consonant (at least 1) then retain only those consonants <br>
+    **Note**: Assume that the sentence would begin with a word and there will be only a single space between the words. <br>
+
+
+26. Write a python program that accepts a text and displays a string which contains the word with the largest frequency in the text and the frequency itself separated by a           space.<br>
+    **Rules**:<br>
+    The word should have the largest frequency.<br>
+    In case multiple words have the same frequency, then choose the word that has the maximum length.<br>
+    **Assumptions**:<br>
+    The text has no special characters other than space.
+    The text would begin with a word and there will be only a single space between the words.<br>
+    Perform case insensitive string comparisons wherever necessary.<br>
+
