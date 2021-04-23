@@ -1,3 +1,4 @@
+![q7](https://user-images.githubusercontent.com/64722906/115828133-e9060680-a42a-11eb-9f74-26780324b7cf.png)
 # Python-Codes
 
 1. The flight ticket rates for a round-trip (Mumbai->Dubai) were as follows: <br>
@@ -29,11 +30,8 @@
    A vegetarian combo costs Rs.120 per plate and a non-vegetarian combo costs Rs.150 per plate. Their non-veg combo is really famous that they get more orders for their non-        vegetarian combo than the vegetarian combo. <br>
 
    Apart from the cost per plate of food, customers are also charged for home delivery based on the distance in kms from the restaurant to the delivery point. The delivery          charges are as mentioned below: <br>
-
-   Distance in kms       Delivery charge in Rs per km <br>
-   For first 3kms                     0 <br>
-   For next 3kms                      3 <br>
-   For the remaining                  6 <br>
+   
+   ![q7](https://user-images.githubusercontent.com/64722906/115828164-f58a5f00-a42a-11eb-8065-36ee6d2d4c4a.png)
 
    Given the type of food, quantity (no. of plates) and the distance in kms from the restaurant to the delivery point, write a python program to calculate the final bill amount    to be paid by a customer.  <br>
    The below information must be used to check the validity of the data provided by the customer: <br>
@@ -57,7 +55,16 @@
    Display appropriate error messages for all invalid data. If all the business rules are satisfied ,then display account number, eligible and requested loan amount and EMI’s.
    Test your code by providing different values for the input variables. <br>
    
-      Salary     Loan type  Eligible loan amount    No. of EMI’s required to repay <br>
-      > 25000    Car        500000                  36 <br>
-      > 50000    House      6000000                 60 <br>
-      > 75000    Business   7500000                 84 <br>
+   ![q8](https://user-images.githubusercontent.com/64722906/115828248-12bf2d80-a42b-11eb-9308-63b603a2f04d.png)
+   
+9. Write a python program to solve a classic ancient Chinese puzzle.<br>
+   We count 35 heads and 94 legs among the chickens and rabbits in a farm. How many rabbits and how many chickens do we have? <br>
+
+10.Write a python program which finds the maximum number from num1 to num2 (num2 inclusive) based on the following rules.
+   1. Always num1 should be less than num2
+   2. Consider each number from num1 to num2 (num2 inclusive). Populate the number into a list, if the below conditions are satisfied
+      a. Sum of the digits of the number is a multiple of 3
+      b. Number has only two digits
+      c. Number is a multiple of 5
+   3. Display the maximum element from the list
+   In case of any invalid data or if the list is empty, display -1.
