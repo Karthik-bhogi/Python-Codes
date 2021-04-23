@@ -8,10 +8,10 @@
    Find and display the total ticket cost for a group which had adults and children. <br>
 
 2. Write a python program that displays a message as follows for a given number: <br>
-   a. If it is a multiple of three, display "Zip" <br>
-   b. If it is a multiple of five, display "Zap". <br>
-   c. If it is a multiple of both three and five, display "Zoom". <br>
-   d. If it does not satisfy any of the above given conditions, display "Invalid". <br>
+   1. If it is a multiple of three, display "Zip" <br>
+   2. If it is a multiple of five, display "Zap". <br>
+   3. If it is a multiple of both three and five, display "Zoom". <br>
+   4. If it does not satisfy any of the above given conditions, display "Invalid". <br>
  
 3. Write a Python program to find the sum of digits of a given number. <br>
    E.g. Sum of number 123 will be 6 <br>
@@ -30,18 +30,14 @@
 
    Apart from the cost per plate of food, customers are also charged for home delivery based on the distance in kms from the restaurant to the delivery point. The delivery          charges are as mentioned below: <br>
    
-   Distance in kms | Delivery charge in Rs per km <br>
-   ------------ | ------------- <br>
-   For first 3kms | 0 <br>
-   For next 3kms | 3 <br>
-   For the remaining | 6 <br>
+   ![q7](https://user-images.githubusercontent.com/64722906/115866626-8ecf6a80-a457-11eb-9b00-f67be8412279.png)
 
    Given the type of food, quantity (no. of plates) and the distance in kms from the restaurant to the delivery point, write a python program to calculate the final bill amount    to be paid by a customer.  <br>
    The below information must be used to check the validity of the data provided by the customer: <br>
-   a. Type of food must be ‘V’ for vegetarian and ‘N’ for non-vegetarian. <br>
-   b. Distance in kms must be greater than 0. <br>
-   c. Quantity ordered should be minimum 1. <br>
-   d. If any of the input is invalid, the bill amount should be considered as -1. <br>
+   1. Type of food must be ‘V’ for vegetarian and ‘N’ for non-vegetarian. <br>
+   2. Distance in kms must be greater than 0. <br>
+   3. Quantity ordered should be minimum 1. <br>
+   4. If any of the input is invalid, the bill amount should be considered as -1. <br>
      
 8. The Metro Bank provides various types of loans such as car loans, business loans and house loans to its account holders. Write a python program to implement the following        requirements: <br>
 
@@ -53,11 +49,8 @@
    Display appropriate error messages for all invalid data. If all the business rules are satisfied ,then display account number, eligible and requested loan amount and EMI’s.
    Test your code by providing different values for the input variables. <br>
    
-   Salary | Loan type | Eligible Loan amount | No of EMI's required to replay <br>
-   >25000 | Car | 500000 | 36 <br>
-   >50000 | House | 6000000 |60 <br>
-   >75000 | Business | 7500000 | 84 <br>
-   
+   ![q8](https://user-images.githubusercontent.com/64722906/115866586-8119e500-a457-11eb-9ac5-fcc74c1fe72a.png)
+  
 9. Write a python program to solve a classic ancient Chinese puzzle.<br>
    We count 35 heads and 94 legs among the chickens and rabbits in a farm. How many rabbits and how many chickens do we have? <br>
 
@@ -74,9 +67,9 @@
 
 12. Write a python program to generate the ticket numbers for specified number of passengers traveling in a flight as per the details mentioned below:<br>
     The ticket number should be generated as airline:src:dest:number where<br>
-       a. Consider AI as the value for airline <br>
-       b. src and dest should be the first three characters of the source and destination cities.<br>
-       c. number should be auto-generated starting from 101<br>
+    1. Consider AI as the value for airline <br>
+    2. src and dest should be the first three characters of the source and destination cities.<br>
+    3. number should be auto-generated starting from 101<br>
     The program should return the list of ticket numbers of last five passengers.<br>
     **Note**: If passenger count is less than 5, return the list of all generated ticket numbers.<br>
     
@@ -103,8 +96,7 @@
     
 19. A teacher is conducting a camp for a group of five children. Based on their performance and behavior during the camp, the teacher rewards them with chocolates.<br>
     Write a Python function to<br>
-    1. Find the total number of chocolates received by all the children put together.<br>
-    Assume that each child is identified by an id and it is stored in a tuple and the number of chocolates given to each child is stored in a list.<br>
-    2. The teacher also rewards a child with few extra chocolates for his/her best conduct during the camp.<br>
-    If the number of extra chocolates is less than 1, an error message "Extra chocolates is less than 1", should be displayed.<br>
-    If the given child Id is invalid, an error message "Child id is invalid" should be displayed. Otherwise, the extra chocolates provided for the child must be added to his/her     existing number of chocolates and display the list containing the total number of chocolates received by each child.<br>
+    1. Find the total number of chocolates received by all the children put together. Assume that each child is identified by an id and it is stored in a tuple and the number of     chocolates given to each child is stored in a list.
+    2. The teacher also rewards a child with few extra chocolates for his/her best conduct during the camp. <br>
+    3. If the number of extra chocolates is less than 1, an error message "Extra chocolates is less than 1", should be displayed.<br>
+    4. If the given child Id is invalid, an error message "Child id is invalid" should be displayed. Otherwise, the extra chocolates provided for the child must be added to         his/her existing number of chocolates and display the list containing the total number of chocolates received by each child.<br>
