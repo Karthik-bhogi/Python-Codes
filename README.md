@@ -1,5 +1,4 @@
-![q7](https://user-images.githubusercontent.com/64722906/115828133-e9060680-a42a-11eb-9f74-26780324b7cf.png)
-# Python-Codes
+# Python-Codes 
 
 1. The flight ticket rates for a round-trip (Mumbai->Dubai) were as follows: <br>
    Rate per Adult: Rs. 37550.0 <br>
