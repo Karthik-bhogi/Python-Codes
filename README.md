@@ -30,7 +30,11 @@
 
    Apart from the cost per plate of food, customers are also charged for home delivery based on the distance in kms from the restaurant to the delivery point. The delivery          charges are as mentioned below: <br>
    
-   ![q7](https://user-images.githubusercontent.com/64722906/115828164-f58a5f00-a42a-11eb-8065-36ee6d2d4c4a.png)
+   Distance in kms | Delivery charge in Rs per km <br>
+   ------------ | ------------- <br>
+   For first 3kms | 0 <br>
+   For next 3kms | 3 <br>
+   For the remaining | 6 <br>
 
    Given the type of food, quantity (no. of plates) and the distance in kms from the restaurant to the delivery point, write a python program to calculate the final bill amount    to be paid by a customer.  <br>
    The below information must be used to check the validity of the data provided by the customer: <br>
@@ -42,19 +46,17 @@
 8. The Metro Bank provides various types of loans such as car loans, business loans and house loans to its account holders. Write a python program to implement the following        requirements: <br>
 
    Initialize the following variables with appropriate input values:account_number, account_balance, salary, loan_type, loan_amount_expected and customer_emi_expected. <br>
-
    The account number should be of 4 digits and its first digit should be 1. <br>
-
    The customer should have a minimum balance of Rupees 1 Lakh in the account. <br>
-
    If the above rules are valid, determine the eligible loan amount and the EMI that the bank can provide to its customers based on their salary and the loan type they expect to    avail. <br>
-
    The bank would provide the loan, only if the loan amount and the number of EMI’s requested by the customer is less than or equal to the loan amount and the number of EMI’s      decided by the bank respectively. <br>
-
    Display appropriate error messages for all invalid data. If all the business rules are satisfied ,then display account number, eligible and requested loan amount and EMI’s.
    Test your code by providing different values for the input variables. <br>
    
-   ![q8](https://user-images.githubusercontent.com/64722906/115828248-12bf2d80-a42b-11eb-9308-63b603a2f04d.png)
+   Salary | Loan type | Eligible Loan amount | No of EMI's required to replay <br>
+   >25000 | Car | 500000 | 36 <br>
+   >50000 | House | 6000000 |60 <br>
+   >75000 | Business | 7500000 | 84 <br>
    
 9. Write a python program to solve a classic ancient Chinese puzzle.<br>
    We count 35 heads and 94 legs among the chickens and rabbits in a farm. How many rabbits and how many chickens do we have? <br>
@@ -67,3 +69,42 @@
        c. Number is a multiple of 5<br>
     3. Display the maximum element from the list<br>
     In case of any invalid data or if the list is empty, display -1.<br>
+    
+11. Given a list of integer values. Write a python program to check whether it contains same number in adjacent position. Display the count of such adjacent occurrences <br>
+
+12. Write a python program to generate the ticket numbers for specified number of passengers traveling in a flight as per the details mentioned below:<br>
+    The ticket number should be generated as airline:src:dest:number where<br>
+       a. Consider AI as the value for airline <br>
+       b. src and dest should be the first three characters of the source and destination cities.<br>
+       c. number should be auto-generated starting from 101<br>
+    The program should return the list of ticket numbers of last five passengers.<br>
+    **Note**: If passenger count is less than 5, return the list of all generated ticket numbers.<br>
+    
+13. Write a python program which displays the count of the names that matches a given pattern from a list of names provided.  <br>
+    Consider the pattern characters to be: <br>
+    1. "_ at" where "_" can be one occurrence of any character
+    2. "%at%" where "%" can have zero or any number of occurrences of a character
+
+14. Write a Python program to generate the next 15 leap years starting from a given year. Populate the leap years into a list and display the list. <br>
+
+15. ARS Gems Store sells different varieties of gems to its customers.<br>
+   Write a Python program to calculate the bill amount to be paid by a customer based on the list of gems and quantity purchased. Any purchase with a total bill amount above        Rs.30000 is entitled for 5% discount. If any gem required by the customer is not available in the store, then consider total bill amount to be -1.<br>
+   Assume that quantity required by the customer for any gem will always be greater than 0.<br>
+   Perform case-sensitive comparison wherever applicable.<br>
+   
+16. Write a python function, create_largest_number(), which accepts a list of numbers and returns the largest number possible by concatenating the list of numbers.<br> 
+    **Note**: Assume that all the numbers are two digit numbers.<br> 
+    
+17. Write a function, check_palindrome() to check whether the given string is a palindrome or not. The function should return true if it is a palindrome else it should return       false.<br>
+    **Note**: Initialize the string with various values and test your program. Assume that all the letters in the given string are all of the same case. Example: MAN, civic, WOW     etc.<br>
+    
+18. Given a string containing uppercase characters (A-Z), compress the string using Run Length encoding. Repetition of character has to be replaced by storing the length of that     run.<br>
+    Write a python function which performs the run length encoding for a given String and returns the run length encoded String. Provide different String values and test your       program <br>
+    
+19. A teacher is conducting a camp for a group of five children. Based on their performance and behavior during the camp, the teacher rewards them with chocolates.<br>
+    Write a Python function to<br>
+    1. Find the total number of chocolates received by all the children put together.<br>
+    Assume that each child is identified by an id and it is stored in a tuple and the number of chocolates given to each child is stored in a list.<br>
+    2. The teacher also rewards a child with few extra chocolates for his/her best conduct during the camp.<br>
+    If the number of extra chocolates is less than 1, an error message "Extra chocolates is less than 1", should be displayed.<br>
+    If the given child Id is invalid, an error message "Child id is invalid" should be displayed. Otherwise, the extra chocolates provided for the child must be added to his/her     existing number of chocolates and display the list containing the total number of chocolates received by each child.<br>
