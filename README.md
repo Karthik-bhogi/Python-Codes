@@ -13,3 +13,51 @@
    c. If it is a multiple of both three and five, display "Zoom". <br>
    d. If it does not satisfy any of the above given conditions, display "Invalid". <br>
  
+3. Write a Python program to find the sum of digits of a given number. <br>
+   E.g. Sum of number 123 will be 6 <br>
+
+4. Write a python program to find and display the product of three positive integer values based on the rule mentioned below: <br>
+   It should display the product of the three values except when one of the integer value is 7. In that case, 7 should not be included in the product and the values to its left       also should not be included. <br>
+   If there is only one value to be considered, display that value itself. If no values can be included in the product, display -1. <br>
+   
+5. Write a python function to check whether three given numbers can form the sides of a triangle. <br>
+
+6. You have x no. of 5 rupee coins and y no. of 1 rupee coins. You want to purchase an item for amount z. The shopkeeper wants you to provide exact change. You want to pay using      minimum number of coins. How many 5 rupee coins and 1 rupee coins will you use? If exact change is not possible then display -1. <br>
+
+7. FoodCorner home delivers vegetarian and non-vegetarian combos to its customer based on order. <br>
+
+   A vegetarian combo costs Rs.120 per plate and a non-vegetarian combo costs Rs.150 per plate. Their non-veg combo is really famous that they get more orders for their non-        vegetarian combo than the vegetarian combo. <br>
+
+   Apart from the cost per plate of food, customers are also charged for home delivery based on the distance in kms from the restaurant to the delivery point. The delivery          charges are as mentioned below: <br>
+
+   Distance in kms       Delivery charge in Rs per km <br>
+   For first 3kms                     0 <br>
+   For next 3kms                      3 <br>
+   For the remaining                  6 <br>
+
+   Given the type of food, quantity (no. of plates) and the distance in kms from the restaurant to the delivery point, write a python program to calculate the final bill amount    to be paid by a customer.  <br>
+   The below information must be used to check the validity of the data provided by the customer: <br>
+   a. Type of food must be ‘V’ for vegetarian and ‘N’ for non-vegetarian. <br>
+   b. Distance in kms must be greater than 0. <br>
+   c. Quantity ordered should be minimum 1. <br>
+   d. If any of the input is invalid, the bill amount should be considered as -1. <br>
+     
+8. The Metro Bank provides various types of loans such as car loans, business loans and house loans to its account holders. Write a python program to implement the following        requirements: <br>
+
+   Initialize the following variables with appropriate input values:account_number, account_balance, salary, loan_type, loan_amount_expected and customer_emi_expected. <br>
+
+   The account number should be of 4 digits and its first digit should be 1. <br>
+
+   The customer should have a minimum balance of Rupees 1 Lakh in the account. <br>
+
+   If the above rules are valid, determine the eligible loan amount and the EMI that the bank can provide to its customers based on their salary and the loan type they expect to    avail. <br>
+
+   The bank would provide the loan, only if the loan amount and the number of EMI’s requested by the customer is less than or equal to the loan amount and the number of EMI’s      decided by the bank respectively. <br>
+
+   Display appropriate error messages for all invalid data. If all the business rules are satisfied ,then display account number, eligible and requested loan amount and EMI’s.
+   Test your code by providing different values for the input variables. <br>
+   
+      Salary     Loan type  Eligible loan amount    No. of EMI’s required to repay <br>
+      > 25000    Car        500000                  36 <br>
+      > 50000    House      6000000                 60 <br>
+      > 75000    Business   7500000                 84 <br>
